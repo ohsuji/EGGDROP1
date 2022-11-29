@@ -554,7 +554,7 @@ img {
   margin: 10px;
 }
 .menu_wrap .nav ul li a {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 .menu_wrap .nav ul li:hover a {
   color: #eb0029;
@@ -605,7 +605,7 @@ img {
   display: inline-block;
   border: 2px solid #000000;
   border-radius: 999px;
-  padding: 10px 30px;
+  padding: 5px 15px;
   color: #000000;
   font-size: 1rem;
 }
@@ -619,7 +619,8 @@ img {
   justify-content: end;
 }
 .menu_wrap .banner .bottom .app ul.app_list li {
-  margin: 10px;
+  width: 40px;
+  margin: 5px;
 }
 .content_wrap {
   padding-top: 80px;

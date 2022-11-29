@@ -18,7 +18,7 @@
       margin: 10px;
       li {
         a {
-          font-size: 0.8rem;
+          font-size: 0.7rem;
           } 
         &:hover a {
           color: $red;
@@ -75,7 +75,7 @@
           display: inline-block;
           border: 2px solid $black;
           border-radius: 999px;
-          padding: 10px 30px;
+          padding: 5px 15px;
           color: $black;
           font-size: 1rem;
           &:hover {
@@ -90,10 +90,9 @@
           display: flex;
           justify-content: end;
           li {
-            margin: 10px;
+            width: 40px;
+            margin: 5px;
             a {
-              img {
-              }
             }
           }
         }
