@@ -134,9 +134,9 @@ img {
 #container .visual .scroll {
   position: absolute;
   bottom: 30px;
-  left: 50%;
   z-index: 10;
-  left: 40%;
+  left: 50%;
+  margin-left: -50px;
   text-align: center;
   cursor: pointer;
   -webkit-animation-name: scrollMove;
@@ -311,16 +311,20 @@ img {
   text-align: center;
   line-height: 3;
 }
+#container .store .store_header p {
+  font-size: 0.75rem;
+}
+#container .store .store_content {
+  text-align: center;
+}
 #container .store .store_content .search {
-  display: flex;
-  justify-content: center;
   margin-top: 30px;
 }
 #container .store .store_content .search img {
-  width: 30px;
+  width: 20px;
 }
 #container .store .store_content .search .input {
-  width: 140px;
+  width: 100px;
   border: 0;
   outline: none;
   background-color: #d8e9f5;
@@ -328,11 +332,21 @@ img {
   font-size: 20px;
   border-bottom: 1px solid #000000;
 }
-#container .store .store_content .search .more {
+#container .store .store_content .store_info {
+  text-align: left;
+  padding: 20px;
+}
+#container .store .store_content .store_info p {
+  font-size: 0.6rem;
+}
+#container .store .store_content .store_info p span {
+  font-weight: bold;
+}
+#container .store .store_content .more {
   text-align: center;
   margin-left: 20px;
 }
-#container .store .store_content .search .more a {
+#container .store .store_content .more a {
   display: inline-block;
   border: 2px solid #000000;
   border-radius: 999px;
@@ -340,18 +354,9 @@ img {
   color: #000000;
   font-size: 1rem;
 }
-#container .store .store_content .search .more a:hover {
+#container .store .store_content .more a:hover {
   color: #eb0029;
   border: 2px solid #eb0029;
-}
-#container .store .store_content .store_info {
-  padding: 30px;
-}
-#container .store .store_content .store_info p {
-  font-size: 0.9rem;
-}
-#container .store .store_content .store_info p span {
-  font-weight: bold;
 }
 #container .notice {
   padding: 20px;
@@ -549,7 +554,7 @@ img {
   margin: 10px;
 }
 .menu_wrap .nav ul li a {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 .menu_wrap .nav ul li:hover a {
   color: #eb0029;
