@@ -92,9 +92,9 @@
 		.scroll {
 			position: absolute;
 			bottom: 30px;
-			left: 50%;
 			z-index: 10;
-			left: 40%;
+			left: 50%;
+			margin-left: -50px;
 			text-align: center;
 			cursor: pointer;
 			animation-name: scrollMove;
@@ -252,17 +252,19 @@
 				text-align: center;
 				line-height: 3;
 			}
+			p {
+				font-size: 0.75rem;
+			}
 		}
 		.store_content {
+			text-align: center;
 			.search {
-				display: flex;
-				justify-content: center;
 				margin-top: 30px;
 				img {
-					width: 30px;
+					width: 20px;
 				}
 				.input {
-					width: 140px;
+					width: 100px;
 					border: 0;
 					outline: none;
 					background-color: $light-blue;
@@ -270,7 +272,18 @@
 					font-size: 20px;
 					border-bottom: 1px solid $black;
 				}
-				.more {
+			}
+			.store_info {
+				text-align: left;
+				padding: 20px;
+				p {
+					font-size: 0.6rem;
+					span {
+						font-weight: bold;
+					}
+				}
+			}
+			.more {
 					text-align: center;
 					margin-left: 20px;
 					a {
@@ -286,16 +299,6 @@
 						}
 					}
 				}
-			}
-			.store_info {
-				padding: 30px;
-				p {
-					font-size: 0.9rem;
-					span {
-						font-weight: bold;
-					}
-				}
-			}
 		}
 	}
 	/** notice **/ 
