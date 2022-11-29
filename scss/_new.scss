@@ -1,0 +1,63 @@
+.content_wrap {
+  padding-top: 80px;
+  text-align: center;
+  background: $orange;
+  .top {
+    padding: 20px 10px;
+    h2 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .intro {
+      padding: 10px;
+      img {
+        width: 50%;
+      }
+      p {
+        line-height: 1.5;
+        color: #333;
+      }
+    }
+    .item {
+      overflow: hidden;
+      h3 {
+        line-height: 2;
+      }
+      ul {
+        display: flex;
+        width: 650px;
+        li {
+          width: 100px;
+          height: 100%;
+          span {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+  .together {
+    background: $white;
+    h3 {
+      line-height: 2.5;
+    }
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      li {
+        width: 100px;
+        height: 100px;
+        a {
+          display: flex;
+          flex-direction: column;
+          img {
+            margin-bottom: 10px;
+          }
+          span {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+// color
+$white: #ffffff;
+$black: #000000;
+$gray: #f2f2f2;
+$red: #eb0029;
+$light-pink: #F4E6E7;
+$pink: #f6d0d9;
+$dark-pink: #ef4b80;
+$orange: #fee0bc;
+$dark-orange: #ffbe9e;
+$yellow: #f3f0a1;
+$light-green: #c7e995;
+$dark_green: #9be3be;
+$light-blue: #d8e9f5;
+$blue: #a5dae8;
+$purple: #f1b2dd;
+
+// set-box
+@mixin set-box($height, $width: 100%, $border-radius: 0) {
+	height: $height;
+	width: $width;
+	border-radius: $border-radius;
+}
