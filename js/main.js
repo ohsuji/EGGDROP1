@@ -26,9 +26,11 @@ $('.btn_sub').click(function(){
 
 // gnb 왼쪽에서 슬라이드
 $('.ham_btn_open').click(function(){
-  $('#gnb').animate({right:0},300,'swing');
+  $('#gnb').animate({right:0},300,'swing'),function () {
+    $(this).addClass("show")};
 });
 // gnb 사라짐
 $('.ham_btn_close').click(function(){
-  $('#gnb').animate({right:-1280},300);
+  $('#gnb').animate({right:-1280},300), function () {
+    $(this).addClass("hide")};
 });

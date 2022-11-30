@@ -75,15 +75,17 @@ img {
 }
 #container .header_container header h1 {
   line-height: 80px;
-  font-weight: bold;
+}
+#container .header_container header h1 a {
+  font-size: 1.5rem;
 }
 #container .header_container header .ham_btn_open {
   line-height: 80px;
   cursor: pointer;
 }
 #container .header_container header .ham_btn_open img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 #container .header_container #gnb {
   min-width: 270px;
@@ -114,39 +116,42 @@ img {
 }
 #container .header_container #gnb .inner .close h1 a {
   color: #ffffff;
+  font-size: 1.5rem;
 }
 #container .header_container #gnb .inner .close .ham_btn_close {
   line-height: 80px;
   cursor: pointer;
 }
 #container .header_container #gnb .inner .close .ham_btn_close img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   filter: invert(100%);
 }
 #container .header_container #gnb .inner ul.main_menu_list {
-  height: 30vh;
+  border: 2px solid red;
+  height: 35vh;
   padding: 20px;
   cursor: pointer;
   text-align: center;
   background: url(../img/menu_bg.PNG) no-repeat center center/cover;
 }
 #container .header_container #gnb .inner ul.main_menu_list li.main_menu {
-  margin-bottom: 10px;
+  border: 2px solid orange;
 }
 #container .header_container #gnb .inner ul.main_menu_list li.main_menu .btn_menu {
-  font-size: 1.3rem;
+  font-size: 1rem;
   background: transparent;
   color: #ffffff;
   border: none;
   cursor: pointer;
+  padding: 10px;
 }
 #container .header_container #gnb .inner ul.main_menu_list li.main_menu .sub_menu_list ul.sub_list li.sub_menu a {
   font-size: 1.2rem;
   color: #ffffff;
 }
 #container .header_container #gnb .middle {
-  margin: 20px 30px;
+  padding: 20px 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -158,14 +163,21 @@ img {
   font-size: 0.9rem;
 }
 #container .header_container #gnb .middle .right a {
+  font-size: 0.8rem;
   color: #ffffff;
 }
 #container .header_container #gnb .middle .right a span {
-  font-size: 0.9rem;
   color: #666;
 }
 #container .header_container #gnb footer {
+  border: 2px solid blue;
   z-index: 100;
+}
+#container .header_container .hide {
+  display: none;
+}
+#container .header_container .show {
+  display: block;
 }
 #container .visual {
   position: relative;
