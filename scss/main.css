@@ -141,7 +141,7 @@ img {
   align-content: space-between;
 }
 #container .header_container #gnb .inner ul.main_menu_list li.main_menu .btn_menu {
-  font-size: 1rem;
+  font-size: 1.2rem;
   background: transparent;
   color: #ffffff;
   border: none;
@@ -154,6 +154,7 @@ img {
 }
 #container .header_container #gnb .middle {
   padding: 20px 30px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -173,6 +174,24 @@ img {
 }
 #container .header_container #gnb footer {
   z-index: 100;
+}
+#container .header_container #gnb footer .sns {
+  border: 2px solid red;
+}
+#container .header_container #gnb footer .sns ul {
+  line-height: 0;
+}
+#container .header_container #gnb footer .sns ul li {
+  margin: 0 15px 0 0;
+}
+#container .header_container #gnb footer .sns ul li img {
+  width: 30px;
+}
+#container .header_container #gnb footer .info {
+  font-size: 0.7rem;
+}
+#container .header_container #gnb footer .address {
+  font-size: 0.6rem;
 }
 #container .header_container .hide {
   display: none;
@@ -604,15 +623,16 @@ img {
 .menu_wrap .menu_header {
   margin-top: 30px;
   text-align: center;
+  font-size: 0.9rem;
 }
 .menu_wrap .menu_header h2 {
   line-height: 3;
-  font-size: 1.9rem;
+  font-size: 1.3rem;
 }
 .menu_wrap .nav {
   background: #f2f2f2;
   margin-bottom: 10px;
-  line-height: 60px;
+  line-height: 50px;
 }
 .menu_wrap .nav ul {
   display: flex;
@@ -661,6 +681,7 @@ img {
 .menu_wrap .banner p {
   font-weight: bold;
   margin-bottom: 10px;
+  font-size: 0.9rem;
 }
 .menu_wrap .banner .bottom {
   display: flex;

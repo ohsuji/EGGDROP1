@@ -6,24 +6,27 @@
 		.notice_header {
 			h2 {
 				padding: 50px 0 20px;
+				font-size: 1.3rem;
 			}
 			p {
-				font-weight: bold;
+				color: #333;
+				font-size: 0.9rem;
 				padding-bottom: 30px;
 			}
 		}
 		.nav {
-			height: 60px;
+			height: 50px;
 			background-color: $gray;
-			margin-bottom: 30px;
+			margin-bottom: 10px;
 			ul {
 				display: flex;
 				justify-content: space-evenly;
 				li {
-					line-height: 60px;
+					line-height: 50px;
 					padding-bottom: 20px;
 					a {
 						padding-bottom: 19px;
+						font-size: 0.7rem;
 					}
           &:hover a {
 						color: $red;
@@ -45,11 +48,12 @@
 						}
 						span {
 							line-height: 2.5;
+							font-size: 0.75rem;
 						}
 						p {
-							font-size: 1.1rem;
+							font-size: 1rem;
 							&:nth-of-type(2) {
-								font-size: 1rem;
+								font-size: 0.8rem;
 							}
 						}
 					}
