@@ -166,7 +166,6 @@ img {
 }
 .about .notice_wrap .thumb_wrap ul.notice_list li {
   text-align: left;
-  margin-bottom: 20px;
   padding: 20px;
 }
 .about .notice_wrap .thumb_wrap ul.notice_list li a img {
@@ -174,13 +173,13 @@ img {
   height: 50%;
 }
 .about .notice_wrap .thumb_wrap ul.notice_list li a span {
-  line-height: 3.5;
+  line-height: 2.5;
 }
 .about .notice_wrap .thumb_wrap ul.notice_list li a p {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 .about .notice_wrap .thumb_wrap ul.notice_list li a p:nth-of-type(2) {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .about .notice_wrap .thumb_wrap .more {
   text-align: center;
@@ -192,7 +191,7 @@ img {
   border-radius: 999px;
   padding: 10px 30px;
   color: #000000;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .about .notice_wrap .thumb_wrap .more a:hover {
   color: #eb0029;

@@ -37,7 +37,6 @@
 			ul.notice_list {
 				li {
 					text-align: left;
-					margin-bottom: 20px;
 					padding: 20px;
 					a {
 						img {
@@ -45,12 +44,12 @@
 							height: 50%;
 						}
 						span {
-							line-height: 3.5;
+							line-height: 2.5;
 						}
 						p {
-							font-size: 1.5rem;
+							font-size: 1.1rem;
 							&:nth-of-type(2) {
-								font-size: 1.1rem;
+								font-size: 1rem;
 							}
 						}
 					}
@@ -65,7 +64,7 @@
 					border-radius: 999px;
 					padding: 10px 30px;
 					color: $black;
-					font-size: 1rem;
+					font-size: 0.9rem;
 					&:hover {
 						color: $red;
 						border: 2px solid $red;
