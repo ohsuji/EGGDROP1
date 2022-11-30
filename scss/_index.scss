@@ -75,13 +75,14 @@
 					}
 				}	
 				ul.main_menu_list {
-					height: 35%;
-					padding: 20px;
+					height: 40%;
+					padding: 10px;
 					cursor: pointer;
 					text-align: center;
 					background: url(../img/menu_bg.PNG) no-repeat center center / cover;
 					li.main_menu {
-						margin: 0 auto;
+						border: 2px solid orange;
+						margin: 10px;
 						display: flex;
 						justify-content: center;
 						align-content: space-between;
@@ -133,7 +134,6 @@
 			footer {
 				z-index: 100;
 				.sns {
-					border: 2px solid red;
 					ul {
 						line-height: 0;
 						li {
@@ -143,6 +143,9 @@
 							}
 						}
 					}
+				}
+				.top {
+					height: 30px;
 				}
 				.info {
 					font-size: 0.7rem;

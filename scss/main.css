@@ -128,14 +128,15 @@ img {
   filter: invert(100%);
 }
 #container .header_container #gnb .inner ul.main_menu_list {
-  height: 35%;
-  padding: 20px;
+  height: 40%;
+  padding: 10px;
   cursor: pointer;
   text-align: center;
   background: url(../img/menu_bg.PNG) no-repeat center center/cover;
 }
 #container .header_container #gnb .inner ul.main_menu_list li.main_menu {
-  margin: 0 auto;
+  border: 2px solid orange;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-content: space-between;
@@ -175,9 +176,6 @@ img {
 #container .header_container #gnb footer {
   z-index: 100;
 }
-#container .header_container #gnb footer .sns {
-  border: 2px solid red;
-}
 #container .header_container #gnb footer .sns ul {
   line-height: 0;
 }
@@ -186,6 +184,9 @@ img {
 }
 #container .header_container #gnb footer .sns ul li img {
   width: 30px;
+}
+#container .header_container #gnb footer .top {
+  height: 30px;
 }
 #container .header_container #gnb footer .info {
   font-size: 0.7rem;
