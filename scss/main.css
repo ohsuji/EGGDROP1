@@ -43,6 +43,14 @@ img {
   max-width: 100%;
 }
 
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
 #container {
   position: relative;
   height: 100%;
@@ -93,10 +101,8 @@ img {
   margin: 0 auto;
   position: fixed;
   top: 0;
-  left: 0;
-  right: -1280px;
+  right: -700px;
   bottom: 0;
-  overflow: hidden;
   background: #000000;
   z-index: 100;
 }
@@ -192,12 +198,6 @@ img {
 }
 #container .header_container #gnb footer .address {
   font-size: 0.6rem;
-}
-#container .header_container .hide {
-  display: none;
-}
-#container .header_container .show {
-  display: block;
 }
 #container .visual {
   position: relative;

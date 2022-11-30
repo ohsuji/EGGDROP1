@@ -24,13 +24,24 @@ $('.btn_sub').click(function(){
   $(this).siblings('.sub_menu_list').slideToggle();
 });
 
-// gnb 왼쪽에서 슬라이드
-$('.ham_btn_open').click(function(){
-  $('#gnb').animate({right:0},300,'swing'),function () {
-    $(this).addClass("show")};
+// // gnb 왼쪽에서 슬라이드
+// $('.ham_btn_open').click(function(){
+//   $('#gnb').animate({right:0},300,'swing'),function () {
+//     $(this).addClass("show")};
+// });
+// // gnb 사라짐
+// $('.ham_btn_close').click(function(){
+//   $('#gnb').animate({right:-1280},300), function () {
+//     $(this).addClass("hide")};
+// });
+
+$(".ham_btn_open").click(function () {
+  $("#gnb").removeClass("hide");
+  $("#gnb").animate({ right: 0, left: 0 }, 300, "swing"); // swing 속도감이 높아짐
 });
-// gnb 사라짐
-$('.ham_btn_close').click(function(){
-  $('#gnb').animate({right:-1280},300), function () {
-    $(this).addClass("hide")};
+
+$(".ham_btn_close").click(function () {
+  $("#gnb").animate({ right: -700, left: 700 }, 300, "swing", function () {
+    $(this).addClass("hide");
+  });
 });

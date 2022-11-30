@@ -43,6 +43,14 @@ img {
   max-width: 100%;
 }
 
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
 .about {
   margin-top: 80px;
 }

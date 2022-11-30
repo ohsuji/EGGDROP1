@@ -1,0 +1,48 @@
+{
+	"name": "eggdrop",
+	"short_name": "eggdrop",
+	"background_color": "#ffffff",
+	"description": "PWA 연습용",
+	"dir": "auto",
+	"display": "standalone",
+	"orientation": "any",
+	"scope": "/",
+	"start_url": "/",
+	"gcm_sender_id": "49625052041",
+	"gcm_user_visible_only": true,
+	"theme_color": "#ffffff",
+	"categories": [],
+	"screenshots": [
+		{
+			"src": "images/screen.png",
+			"sizes": "357x613",
+			"type": "image/png"
+		},
+		{
+			"src": "images/screen1.png",
+			"sizes": "360x648",
+			"type": "image/png"
+		},
+		{
+			"src": "images/screen2.png",
+			"sizes": "360x648",
+			"type": "image/png"
+		}
+	],
+	"icons": [
+		{
+			"src": "images/maskable_icon_x512.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any"
+		},
+		{
+			"src": "images/maskable_icon_x72.png",
+			"type": "image/png",
+			"sizes": "72x72",
+			"purpose": "maskable"
+		}
+	],
+	"shortcuts": [],
+	"lang": "ko"
+}

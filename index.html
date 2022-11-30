@@ -8,10 +8,25 @@
 		<link rel="shortcut icon" href="./img/favicon.png">
 		<link rel="stylesheet" href="scss/main.css">
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="manifest" href="manifest.json" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 		<script defer src="js/main.js"></script>
+		<script>
+			if ("serviceWorker" in navigator) {
+				// 서비스워커가 있을 때
+				navigator.serviceWorker
+					.register("sw.js") // 등록
+					.then(function (sucess) {
+						console.log("serviceworker 설치 성공", sucess);
+					})
+					.catch(function (error) {
+						console.log("serviceworker 설치 실패", error);
+					});
+			}
+		</script>
 	</head>
 	<body>
 		<div id="container">

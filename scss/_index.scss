@@ -42,10 +42,8 @@
 			margin: 0 auto;
 			position: fixed;
 			top: 0;
-			left: 0;
-			right: -1280px;
+			right: -700px;
 			bottom: 0;
-			overflow: hidden;
 			background: $black;
 			z-index: 100;
 			.inner {
@@ -153,9 +151,7 @@
 					font-size: 0.6rem;
 				}
 			}
-		}	
-		.hide { display : none }
-		.show { display :block} 
+		}
 	}
 	/* main_visual */ 
 	.visual {
