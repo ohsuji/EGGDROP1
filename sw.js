@@ -10,7 +10,7 @@ var CHCHE_NAME = "pwa-offline-v2";
 var filesToCache = [
 	"/", 
 	"/img/login_logo.png",
-	"css/main.css" // 새로추가
+	"scss/main.css" // 새로추가
 ];
 
 // 서비스워커 설치(웹자원 캐싱)
