@@ -75,14 +75,16 @@
 					}
 				}	
 				ul.main_menu_list {
-					border: 2px solid red;
-					height: 35vh;
+					height: 35%;
 					padding: 20px;
 					cursor: pointer;
 					text-align: center;
 					background: url(../img/menu_bg.PNG) no-repeat center center / cover;
 					li.main_menu {
-						border: 2px solid orange;
+						margin: 0 auto;
+						display: flex;
+						justify-content: center;
+						align-content: space-between;
 						.btn_menu {
 							font-size: 1rem;
 							background: transparent;
@@ -128,7 +130,6 @@
 				}
 			}
 			footer {
-				border: 2px solid blue;
 				z-index: 100;
 			}
 		}	

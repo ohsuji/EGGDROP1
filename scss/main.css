@@ -128,15 +128,17 @@ img {
   filter: invert(100%);
 }
 #container .header_container #gnb .inner ul.main_menu_list {
-  border: 2px solid red;
-  height: 35vh;
+  height: 35%;
   padding: 20px;
   cursor: pointer;
   text-align: center;
   background: url(../img/menu_bg.PNG) no-repeat center center/cover;
 }
 #container .header_container #gnb .inner ul.main_menu_list li.main_menu {
-  border: 2px solid orange;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
 }
 #container .header_container #gnb .inner ul.main_menu_list li.main_menu .btn_menu {
   font-size: 1rem;
@@ -170,7 +172,6 @@ img {
   color: #666;
 }
 #container .header_container #gnb footer {
-  border: 2px solid blue;
   z-index: 100;
 }
 #container .header_container .hide {
