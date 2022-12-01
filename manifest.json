@@ -8,25 +8,25 @@
 	"lang": "ko",
 	"display": "standalone",
 	"orientation": "any",
-	"scope": "https://ohsuji.github.io/EGGDROP1/",
-	"start_url": "https://ohsuji.github.io/EGGDROP1/",
-	"gcm_sender_id": "/EGGDROP1/",
+	"scope": "/",
+	"start_url": "/",
+	"gcm_sender_id": "/",
 	"gcm_user_visible_only": true,
 	"categories": [],
 	"screenshots": [
 		{
 			"src": "images/screen.png",
-			"sizes": "361x648",
+			"sizes": "357x613",
 			"type": "image/png"
 		},
 		{
 			"src": "images/screen1.png",
-			"sizes": "361x648",
+			"sizes": "361x618",
 			"type": "image/png"
 		},
 		{
 			"src": "images/screen2.png",
-			"sizes": "361x648",
+			"sizes": "360x648",
 			"type": "image/png"
 		}
 	],
