@@ -18,9 +18,9 @@
 			if ("serviceWorker" in navigator) {
 				// 서비스워커가 있을 때
 				navigator.serviceWorker
-					.register("sw.js") // 등록
-					.then(function (sucess) {
-						console.log("serviceworker 설치 성공", sucess);
+					.register("service-worker.js") // 등록
+					.then(function (success) {
+						console.log("serviceworker 설치 성공", success);
 					})
 					.catch(function (error) {
 						console.log("serviceworker 설치 실패", error);
