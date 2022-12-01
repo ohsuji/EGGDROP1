@@ -9,7 +9,7 @@
 	"display": "standalone",
 	"orientation": "any",
 	"scope": "/",
-	"start_url": "/",
+	"start_url": "https://ohsuji.github.io/EGGDROP1/",
 	"gcm_sender_id": "/",
 	"gcm_user_visible_only": true,
 	"categories": [],
