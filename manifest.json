@@ -4,11 +4,12 @@
 	"background_color": "#ffffff",
 	"description": "PWA 연습용",
 	"dir": "auto",
+	"lang": "ko",
 	"display": "standalone",
 	"orientation": "any",
-	"scope": "/",
-	"start_url": "/",
-	"gcm_sender_id": "49625052041",
+	"scope": "https://ohsuji.github.io/EGGDROP1/",
+	"start_url": "https://ohsuji.github.io/EGGDROP1/",
+	"gcm_sender_id": "",
 	"gcm_user_visible_only": true,
 	"theme_color": "#ffffff",
 	"categories": [],
@@ -43,6 +44,5 @@
 			"purpose": "maskable"
 		}
 	],
-	"shortcuts": [],
-	"lang": "ko"
+	"shortcuts": []
 }
