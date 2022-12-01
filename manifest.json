@@ -9,7 +9,7 @@
 	"orientation": "any",
 	"scope": "https://ohsuji.github.io/EGGDROP1/",
 	"start_url": "https://ohsuji.github.io/EGGDROP1/",
-	"gcm_sender_id": "",
+	"gcm_sender_id": "/",
 	"gcm_user_visible_only": true,
 	"theme_color": "#ffffff",
 	"categories": [],
