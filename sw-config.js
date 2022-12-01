@@ -3,7 +3,7 @@ module.exports = {
     '*.html',
     'scss/**.css',
     'images/**.*',
-    'imag/**.*',
+    'img/**.*',
     'js/*.js'
   ],
   stripPrefix: 'app/',
